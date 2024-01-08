@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+}
+
+
+.logo{
+    background-image: url("/Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+    position: static;
+   
+}
+
+/* Hover */
+.border{
+    border: 1px solid transparent;
+}
+
+.logo:hover{
+    border: 2px solid white;
+}
+
+.location-text:hover{
+    border: 2px solid white;
+}
+
+.Sign-IN:hover{
+    border: 2px solid white;
+}
+
+.Return:hover{
+    border: 2px solid white;
+}
+
+.nav-cart:hover{
+    border: 2px solid white;
+}
+/* END */
+p{
+    color: white;
+}
+
+/* MAP_LOCATION_TEXT */
+.location-text{
+    display: flex;
+    margin-top: 2px;
+    height: 50px;
+    width: 100px;
+    position: relative;
+    left: 50px;
+}
+
+.map-icon{
+    color: white;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.dest-text{
+    color: black;
+    margin-top: 10px;
+    margin-left: 5px;
+
+}
+
+.deliever{
+    font-size: 12px;
+    color: #CCCCCC;
+}
+
+.lahore{
+    font-size: 14px;
+}
+/* End */
+
+/* Search-BAR */
+.opt-color{
+    color: black;
+}
+
+
+.nav-select-main{
+    display: flex;
+    position: relative;
+    left: 90px;
+}
+
+.nav-select select{
+    margin-top: 10px;
+    height: 38px;
+    width: 50px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: #E6E6E6;
+    
+}
+
+.nav-select option{
+    text-align: center;
+}
+
+.nav-search input{
+    margin-top: 10px;
+    width: 650px;
+    height: 38px;
+}
+
+.nav-sumbit-button{
+    color: black;
+    border: 1px solid transparent;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    background-color: rgb(255, 166, 0);
+    margin-top: 10.9px;
+    height: 35px;
+    width: 40px;
+}
+
+.nav-sumbit-button i{
+    position: relative;
+    top: 7.8px;
+    left: 8.9px;
+}
+/* END */
+
+/* NAV-LOCATION */
+
+.nav-location{
+    color: white;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    position: relative;
+    left: 130px;
+}
+
+.nav-location:hover{
+    border: 2px solid white;
+}
+
+.flag{
+    margin-top: -3px;
+}
+.text{
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 2px;
+    margin-left: 3px;
+}
+
+.text i{
+    color: #CCCCCC;
+    cursor: pointer;
+}
+/* END */
+
+/* SIGN-IN */
+
+.Sign-IN{
+    color: white;
+    margin: 10px;
+    position: relative;
+    left: 150px;
+}
+
+.first-text{
+    font-size: 14px;
+    color: #CCCCCC;
+}
+
+.second-text{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.second-text i{
+    color: #CCCCCC;
+}
+
+/* END */
+
+/* Return */
+
+.Return{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    position: relative;
+    left: 180px;
+}
+
+.main-text{
+    color: #CCCCCC;
+    font-size: 14px;
+}
+
+.primary-text{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+/* END */
+
+/* CART */
+
+.nav-cart{
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    left: 230px;
+}
+
+/* END */
+
+/* MAIN-DEALS */
+
+.Main-Deals{
+    width: 100%;
+    height: 40px;
+    background-color: #213333;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.Main_Selection{
+    margin-left: 20px;
+}
+
+.nav-shop-main{
+    margin-left: 30px;
+}
+
+.box{
+    padding: 10px;
+}
+
+/* END */
+
+.main-section{
+    height: 600px;
+    background-image: url("/Images/bg.jpg");
+    background-size: cover;
+}
+
+
+/* MAIN_BOX SECTION */
+/* COntrol-Box 1 */
+.control-box{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.box1{
+    width: 350px;
+    height: 400px;
+    margin-top: 300px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.box1 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box1 a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkcyan;
+    position: relative;
+    top: 310px;
+    left: 5px;
+}
+
+.box1 .image{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/PC.jpg');
+    background-repeat: no-repeat;
+}
+
+.box1 .image2{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/home-decor.jpg');
+    background-repeat: no-repeat;
+}
+
+.box1 .image3{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/Toys.jpg');
+    background-repeat: no-repeat;
+}
+
+.box1 .image4{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/new.jpg');
+    background-repeat: no-repeat;
+}
+
+/* END */
+
+/* Control-Box2  */
+
+.control-box2{
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-around;
+}
+.box2{
+    width: 350px;
+    height: 400px;
+    margin-top: 50px;
+    border: 2px solid black;
+    background-color: white;
+}
+
+.box2 h2{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.box2 a{
+    text-decoration: none;
+    font-weight: bolder;
+    color: darkcyan;
+    position: relative;
+    top: 310px;
+    left: 5px;
+}
+
+.box2 .image5{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/home-decor.jpg');
+    background-repeat: no-repeat;
+}
+
+.box2 .image6{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/Beauty.jpg');
+    background-repeat: no-repeat;
+}
+
+.box2 .image7{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/Toys.jpg');
+    background-repeat: no-repeat;
+}
+
+.box2 .image8{
+    height: 400px;
+    margin: 15px 10px 10px 10px;
+    background-image: url('/Images/new.jpg');
+    background-repeat: no-repeat;
+}
+
+/* END */
+
+.bg-check{
+    height: 610px;
+    width: 100%;
+    background-color: #CCCCCC;
+}
+
+/* Footer */
+.main-footer{
+    height: 90px;
+    width: 100%;
+    background-color: #0F1111;
+    color: white;
+}
+
+.footer-text{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.footer-sec-text{
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+/* END */
